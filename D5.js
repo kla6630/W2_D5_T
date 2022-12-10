@@ -34,6 +34,11 @@ console.log(x);
 console.log(
   "--------------------------------------------Esercizio 03--------------------------------------------"
 );
+
+var y = pets.reverse();
+
+console.log(y);
+
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
@@ -41,6 +46,14 @@ console.log(
 console.log(
   "--------------------------------------------Esercizio 04--------------------------------------------"
 );
+
+const pets2 = ["dog", "cat", "hamster", "redfish"];
+
+pets2.push("dog");
+pets2.shift(); //DA RIVEDERE PER TROVARE UNA FORMULA UNIVERSALE.
+
+console.log(pets2);
+
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
 */
@@ -69,10 +82,17 @@ const cars = [
   },
 ];
 
-const array02 = { licensePlate: null };
-cars.push(array02);
+/*var cars2 = [
+  {
+    licensePlate: "",
+  },
+];
+
+cars.push(cars2);  RIPARTI DA QUI
 
 console.log(cars);
+
+*/
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
