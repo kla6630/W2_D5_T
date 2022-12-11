@@ -82,17 +82,11 @@ const cars = [
   },
 ];
 
-/*var cars2 = [
-  {
-    licensePlate: "",
-  },
-];
+//let licensePlate = licensePlate[" "]
 
-cars.push(cars2);  RIPARTI DA QUI
+//cars.concat(licensePlate);
 
-console.log(cars);
-
-*/
+//console.log(cars);
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
@@ -122,12 +116,20 @@ console.log(
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
 */
 console.log(
-  "--------------------------------------------Esercizio 08--------------------------------------------"
+  "--------------------------------------------Esercizio 09--------------------------------------------"
 );
 
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
+
+let i = 0;
+let numeri = 0;
+
+while (i <= 13) {
+  console.log((numeri = numericArray[i]));
+  i++;
+}
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
@@ -139,3 +141,30 @@ console.log(
 );
 
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+let Position = [""]
+
+switch(charactersArray){
+  case 0:
+    charactersArray = [0];
+  console.log("Position: 12")
+  break;
+}
+  
+ /* case 1:
+    );
+  break;
+  
+  case 2:
+    posizione = 19;
+  break;
+
+  case 3:
+    posizione = 21;
+  break;
+
+  case 4:
+    posizione = 5;
+  break; */
+
+

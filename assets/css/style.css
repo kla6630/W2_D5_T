@@ -1,7 +1,15 @@
 body {
-  background-color: rgb(29, 22, 9);
-  margin-left: 25px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#centered {
+  width: 1080px;
+  border: 0px;
+  padding: 0;
+  margin: 0 auto;
 }
 
 a {
@@ -24,6 +32,7 @@ a:visited {
 .green_href {
   color: #216c76;
   font-weight: bold;
+  font-size: small;
 }
 
 .smaller_text {
@@ -52,7 +61,6 @@ a:visited {
   width: 1080px;
   height: 25px;
   text-align: justify;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: small;
 }
 
@@ -89,14 +97,12 @@ ul#menu li {
   height: 147px;
   position: relative;
   top: 25px;
-  text-align: center;
 }
 
 .gb_t01 {
   color: white;
   position: relative;
   top: 50px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   font-size: 1.5em;
 }
@@ -105,7 +111,6 @@ ul#menu li {
   color: white;
   position: relative;
   top: 70px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1em;
 }
@@ -116,6 +121,7 @@ ul#menu li {
   height: 355px;
   position: relative;
   top: 50px;
+  text-align: left;
 }
 
 .white_box_menu {
@@ -133,7 +139,7 @@ ul#menu li {
   margin-inline-end: 6px;
   margin-inline-start: 6px;
   object-fit: cover;
-  filter: drop-shadow(10px 10px 10px rgba(124, 123, 123, 0.555));
+  filter: drop-shadow(5px 5px 5px rgba(124, 123, 123, 0.555));
 }
 
 .tab_02 {
@@ -148,7 +154,6 @@ ul#menu li {
 
 .tab_02_text {
   background-color: #2f6d5e;
-  text-align: center;
   display: inline;
   position: relative;
   top: 50px;
@@ -158,27 +163,24 @@ ul#menu li {
   background-color: #364759;
   width: 1080px;
   height: 40px;
-  text-align: center;
 }
 
 .bottom_line_text {
-  text-align: center;
   position: relative;
-  top: -30px;
-  right: -480px;
-}
-
-.b_logo_img {
-  width: 130px;
-  height: auto;
-  margin-top: 50px;
+  top: 12px;
+  font-size: small;
+  text-decoration-line: underline;
+  font-weight: bold;
 }
 
 .bottom_banner {
   background-color: #222f3f;
   width: 1080px;
   height: 145px;
-  text-align: center;
-  position: relative;
-  top: -16px;
+}
+
+.b_logo_img {
+  width: 130px;
+  height: auto;
+  margin-top: 50px;
 }
